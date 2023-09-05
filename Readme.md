@@ -1,6 +1,6 @@
 # Lambda and S3Events
 
-![DEMOARCHITECTURE][Images/Architecture.png]
+![alt text](Images/Architecture.png)
 
 ## Overview
 
