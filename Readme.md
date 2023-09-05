@@ -2,6 +2,14 @@
 
 ![Architecture](Images/Architecture.png)
 
+# Requirements
+
+- AWS Account
+- AWS S3 Bucket
+- AWS Lambda Function
+- AWS IAM Role
+- AWS CloudWatch Logs
+
 ## Overview
 
 In this demo lesson you're going to create a simple event-driven image processing pipeline. The pipeline uses two S3 buckets, a source bucket and a processed bucket. When images are added to the source bucket a lambda function is triggered based on the PUT. When invoked the lambda function receives the `event` and extracts the bucket and object information. Once those details are known, the lambda function, using the `PIL` module pixelates the image with `5` different variations (8x8, 16x16, 32x32, 48x48 and 64x64) and uploads them to the processed bucket.
@@ -162,4 +170,9 @@ For each of the `source` and `processed` buckets do:
 - Make sure the bucket is still selected, click `Delete`.
 - Type the name of the bucket then delete the bucket.
 
-That's all folks! :)
+# Contributors
+
+- [Github](https://github.com/Amul-Thantharate)
+- [Instagram](https://www.instagram.com/amul.thantharate/)
+
+Happy Coding :smiley: :+1:
